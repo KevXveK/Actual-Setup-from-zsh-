@@ -1,4 +1,4 @@
-# Actual-Setup-from-zsh-
+# Actual-Setup-from-zsh
 In this repository is my setup from zsh
 
 1) Instalar pacotes básicos
