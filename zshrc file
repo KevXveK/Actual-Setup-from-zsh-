@@ -62,6 +62,11 @@ git_prompt() {
 # usuario@host:~/dir (branch) [HH:MM:SS] $
 PROMPT='%F{cyan}%n@%m%f:%F{yellow}%~%f$(git_prompt) [%F{blue}%*%f] $ '
 
+#Comando para erro do completion do Docker
+fpath=(~/.zsh/completions $fpath)
+autoload -Uz compinit
+compinit
+
 # ===============================
 # Fim do ~/.zshrc
 # ===============================
